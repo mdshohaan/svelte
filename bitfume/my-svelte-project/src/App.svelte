@@ -1,5 +1,5 @@
 <script>
-  let htmlContent = "<strong>This is bold</strong>";
+  import Primary from "./lib/primary.svelte";
 </script>
 
-<p>{@html htmlContent}</p>
+<Primary></Primary>
